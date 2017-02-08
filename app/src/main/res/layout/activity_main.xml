@@ -51,4 +51,22 @@
         android:id="@+id/btnaddhomens"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Total de mulheres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/btnaddmulheres"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp" />
+
+    <TextView
+        android:text="Total de homens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/btnaddhomens"
+        android:layout_alignStart="@+id/btnzerar" />
 </RelativeLayout>
